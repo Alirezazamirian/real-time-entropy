@@ -23,7 +23,7 @@ python entropy_detector.py -top 5 -ext txt -ignore-ext pyc test.txt
 Above command shows you top 5 highest detected entropy, ignore the files with 'pyc' postfix and also takes .txt files.
 
 ### Pay attention : 
-if you do not pass the specific file , it runs on all files contains in the located directory.
+if you do not pass the specific file , it runs on all files contain in the located directory.
 
 To run dynamic entropy detector run :
 ```
