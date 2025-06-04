@@ -1,0 +1,2 @@
+192.168.1.2 - - [04/Jun/2025:18:20:01 +0000] "GET /xyz123abc789 HTTP/1.1" 404 567 "-" "RandomAgentX7pL9qW3zT2"
+192.168.1.3 - - [04/Jun/2025:18:20:02 +0000] "GET /<script>alert('xss')</script> HTTP/1.1" 400 432 "-" "Mozilla/5.0"

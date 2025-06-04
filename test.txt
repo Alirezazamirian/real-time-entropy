@@ -1,0 +1,20 @@
+# test_file.txt
+# Low-entropy strings
+hello world
+aaaaaa
+abcdefghijklmnopqrstuvwxyz
+aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz
+
+# High-entropy strings (potential secrets)
+api_key: X7pL9qW3zT2rY8mB5nK4vJ6hD1fC0xA2
+secret_token: kJ9mP2qW8rT3yU7zX4vB6nL5hD1fC0xA2kM9qW3
+password: 9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+
+# Strings that should be filtered in advanced mode
+url: https://example.com/api/v1/data
+base64_image: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+sequential: abcdefghijklmnopqrstuvwxyz
+
+# Mixed content
+config: user=admin;pass=Zy9xP4qW8rT3yU7z
+normal text with some random: kX9mP2qW8rT3yU7z in the middle

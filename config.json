@@ -1,0 +1,16 @@
+{
+    "log_file": "./test.log",
+    "min_characters": 8,
+    "single_entry_threshold": 2,
+    "check_interval": 1.0,
+    "log_format_regex": {
+        "url": "\"(GET|POST)\\s+([^\\s]+)\\s+HTTP",
+        "user_agent": "\"([^\"]+)\"\\s*$",
+        "ip": "^\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}"
+    },
+    "telegram": {
+        "enabled": true,
+        "bot_token": "",
+        "chat_id": ""
+    }
+}
